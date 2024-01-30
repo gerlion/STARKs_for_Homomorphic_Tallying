@@ -1,0 +1,689 @@
+Log file created at: 2023/10/03 16:11:24
+Running on machine: fedora
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1003 16:11:24.876677 68440 profiling.cc:58] Prover started
+I1003 16:11:24.896803 68440 profiling.cc:58] Trace generation started
+I1003 16:11:24.896821 68440 profiling.cc:58] Init trace memory started
+I1003 16:11:25.181596 68440 profiling.cc:85] Init trace memory finished in 0.284757 sec
+I1003 16:11:25.181674 68440 profiling.cc:88] Init trace memory, RM:783mb, AM:796mb, T:0.314596sec
+I1003 16:11:25.189337 68440 profiling.cc:58] CpuComponent::WriteTrace started
+I1003 16:11:25.275933 68440 profiling.cc:85] CpuComponent::WriteTrace finished in 0.086588 sec
+I1003 16:11:25.276011 68440 profiling.cc:88] CpuComponent::WriteTrace, RM:808mb, AM:1036mb, T:0.408936sec
+I1003 16:11:25.279940 68440 profiling.cc:58] Pedersen builtin started
+I1003 16:11:26.472108 68440 profiling.cc:85] Pedersen builtin finished in 1.19208 sec
+I1003 16:11:26.472209 68440 profiling.cc:88] Pedersen builtin, RM:809mb, AM:1037mb, T:1.60512sec
+I1003 16:11:26.472225 68440 profiling.cc:58] Range check builtin started
+I1003 16:11:26.472234 68440 profiling.cc:85] Range check builtin finished in 6.753e-06 sec
+I1003 16:11:26.472265 68440 profiling.cc:88] Range check builtin, RM:809mb, AM:1037mb, T:1.60523sec
+I1003 16:11:26.472270 68440 profiling.cc:58] ECDSA builtin started
+I1003 16:11:26.652400 68440 profiling.cc:85] ECDSA builtin finished in 0.180112 sec
+I1003 16:11:26.652478 68440 profiling.cc:88] ECDSA builtin, RM:809mb, AM:1037mb, T:1.7854sec
+I1003 16:11:26.655222 68440 profiling.cc:58] Bitwise builtin started
+I1003 16:11:26.658030 68440 profiling.cc:85] Bitwise builtin finished in 0.00280566 sec
+I1003 16:11:26.658087 68440 profiling.cc:88] Bitwise builtin, RM:817mb, AM:1045mb, T:1.79102sec
+I1003 16:11:26.658090 68440 profiling.cc:58] EC operation builtin started
+I1003 16:11:26.792380 68440 profiling.cc:85] EC operation builtin finished in 0.134236 sec
+I1003 16:11:26.792457 68440 profiling.cc:88] EC operation builtin, RM:817mb, AM:1045mb, T:1.92538sec
+I1003 16:11:26.857111 68440 memory_cell.inl:121] Filled 160512 vacant slots in memory: 10 holes and 160502 spares.
+I1003 16:11:26.968176 68440 profiling.cc:85] Trace generation finished in 2.0712 sec
+I1003 16:11:26.968231 68440 profiling.cc:88] Trace generation, RM:829mb, AM:1057mb, T:2.10118sec
+I1003 16:11:26.968243 68440 profiling.cc:58] Commit on trace started
+I1003 16:11:27.063117 68440 profiling.cc:58] Interpolation started
+I1003 16:11:29.232455 68440 profiling.cc:85] Interpolation finished in 2.16933 sec
+I1003 16:11:29.232547 68440 profiling.cc:88] Interpolation, RM:1109mb, AM:1337mb, T:4.36546sec
+I1003 16:11:29.274091 68440 profiling.cc:58] LDE started
+I1003 16:11:30.626402 68440 profiling.cc:85] LDE finished in 1.3523 sec
+I1003 16:11:30.626493 68440 profiling.cc:88] LDE, RM:1878mb, AM:2105mb, T:5.7594sec
+I1003 16:11:30.626497 68440 profiling.cc:58] Commit to LDE started
+I1003 16:11:32.096758 68440 profiling.cc:85] Commit to LDE finished in 1.47025 sec
+I1003 16:11:32.096832 68440 profiling.cc:88] Commit to LDE, RM:1982mb, AM:2129mb, T:7.22976sec
+I1003 16:11:32.096836 68440 profiling.cc:58] LDE started
+I1003 16:11:33.395268 68440 profiling.cc:85] LDE finished in 1.29841 sec
+I1003 16:11:33.395356 68440 profiling.cc:88] LDE, RM:1982mb, AM:2129mb, T:8.52827sec
+I1003 16:11:33.395360 68440 profiling.cc:58] Commit to LDE started
+I1003 16:11:34.837801 68440 profiling.cc:85] Commit to LDE finished in 1.44243 sec
+I1003 16:11:34.837890 68440 profiling.cc:88] Commit to LDE, RM:1982mb, AM:2129mb, T:9.9708sec
+I1003 16:11:34.837893 68440 profiling.cc:58] LDE started
+I1003 16:11:36.171494 68440 profiling.cc:85] LDE finished in 1.33358 sec
+I1003 16:11:36.171568 68440 profiling.cc:88] LDE, RM:1982mb, AM:2129mb, T:11.3045sec
+I1003 16:11:36.171571 68440 profiling.cc:58] Commit to LDE started
+I1003 16:11:37.594659 68440 profiling.cc:85] Commit to LDE finished in 1.42307 sec
+I1003 16:11:37.594745 68440 profiling.cc:88] Commit to LDE, RM:1982mb, AM:2129mb, T:12.7277sec
+I1003 16:11:37.594750 68440 profiling.cc:58] LDE started
+I1003 16:11:38.889878 68440 profiling.cc:85] LDE finished in 1.29511 sec
+I1003 16:11:38.889967 68440 profiling.cc:88] LDE, RM:1982mb, AM:2129mb, T:14.0229sec
+I1003 16:11:38.889971 68440 profiling.cc:58] Commit to LDE started
+I1003 16:11:40.355029 68440 profiling.cc:85] Commit to LDE finished in 1.46504 sec
+I1003 16:11:40.355088 68440 profiling.cc:88] Commit to LDE, RM:1982mb, AM:2129mb, T:15.488sec
+I1003 16:11:40.355093 68440 profiling.cc:58] LDE started
+I1003 16:11:41.655346 68440 profiling.cc:85] LDE finished in 1.30024 sec
+I1003 16:11:41.655432 68440 profiling.cc:88] LDE, RM:1982mb, AM:2129mb, T:16.7883sec
+I1003 16:11:41.655436 68440 profiling.cc:58] Commit to LDE started
+I1003 16:11:43.090914 68440 profiling.cc:85] Commit to LDE finished in 1.43546 sec
+I1003 16:11:43.090993 68440 profiling.cc:88] Commit to LDE, RM:1982mb, AM:2129mb, T:18.2239sec
+I1003 16:11:43.090998 68440 profiling.cc:58] LDE started
+I1003 16:11:44.416137 68440 profiling.cc:85] LDE finished in 1.32512 sec
+I1003 16:11:44.416227 68440 profiling.cc:88] LDE, RM:1982mb, AM:2129mb, T:19.5491sec
+I1003 16:11:44.416231 68440 profiling.cc:58] Commit to LDE started
+I1003 16:11:45.862677 68440 profiling.cc:85] Commit to LDE finished in 1.44643 sec
+I1003 16:11:45.862756 68440 profiling.cc:88] Commit to LDE, RM:1982mb, AM:2129mb, T:20.9957sec
+I1003 16:11:45.862761 68440 profiling.cc:58] LDE started
+I1003 16:11:47.205433 68440 profiling.cc:85] LDE finished in 1.34266 sec
+I1003 16:11:47.205528 68440 profiling.cc:88] LDE, RM:1982mb, AM:2129mb, T:22.3384sec
+I1003 16:11:47.205531 68440 profiling.cc:58] Commit to LDE started
+I1003 16:11:48.639366 68440 profiling.cc:85] Commit to LDE finished in 1.43382 sec
+I1003 16:11:48.639446 68440 profiling.cc:88] Commit to LDE, RM:1982mb, AM:2129mb, T:23.7724sec
+I1003 16:11:48.639451 68440 profiling.cc:58] LDE started
+I1003 16:11:49.978253 68440 profiling.cc:85] LDE finished in 1.33879 sec
+I1003 16:11:49.978338 68440 profiling.cc:88] LDE, RM:1982mb, AM:2129mb, T:25.1113sec
+I1003 16:11:49.978340 68440 profiling.cc:58] Commit to LDE started
+I1003 16:11:51.424708 68440 profiling.cc:85] Commit to LDE finished in 1.44635 sec
+I1003 16:11:51.424800 68440 profiling.cc:88] Commit to LDE, RM:1982mb, AM:2129mb, T:26.5577sec
+I1003 16:11:51.424805 68440 profiling.cc:58] LDE started
+I1003 16:11:52.733013 68440 profiling.cc:85] LDE finished in 1.30819 sec
+I1003 16:11:52.733098 68440 profiling.cc:88] LDE, RM:1982mb, AM:2129mb, T:27.866sec
+I1003 16:11:52.733103 68440 profiling.cc:58] Commit to LDE started
+I1003 16:11:54.172065 68440 profiling.cc:85] Commit to LDE finished in 1.43895 sec
+I1003 16:11:54.172158 68440 profiling.cc:88] Commit to LDE, RM:1982mb, AM:2129mb, T:29.3051sec
+I1003 16:11:54.172161 68440 profiling.cc:58] LDE started
+I1003 16:11:55.471532 68440 profiling.cc:85] LDE finished in 1.29935 sec
+I1003 16:11:55.471652 68440 profiling.cc:88] LDE, RM:1982mb, AM:2129mb, T:30.6046sec
+I1003 16:11:55.471655 68440 profiling.cc:58] Commit to LDE started
+I1003 16:11:56.922673 68440 profiling.cc:85] Commit to LDE finished in 1.451 sec
+I1003 16:11:56.922767 68440 profiling.cc:88] Commit to LDE, RM:1983mb, AM:2129mb, T:32.0557sec
+I1003 16:11:56.922770 68440 profiling.cc:58] LDE started
+I1003 16:11:58.224594 68440 profiling.cc:85] LDE finished in 1.30181 sec
+I1003 16:11:58.224674 68440 profiling.cc:88] LDE, RM:1983mb, AM:2129mb, T:33.3576sec
+I1003 16:11:58.224678 68440 profiling.cc:58] Commit to LDE started
+I1003 16:11:59.689316 68440 profiling.cc:85] Commit to LDE finished in 1.46462 sec
+I1003 16:11:59.689424 68440 profiling.cc:88] Commit to LDE, RM:1983mb, AM:2129mb, T:34.8223sec
+I1003 16:11:59.689432 68440 profiling.cc:58] LDE started
+I1003 16:12:01.009729 68440 profiling.cc:85] LDE finished in 1.32028 sec
+I1003 16:12:01.009807 68440 profiling.cc:88] LDE, RM:1983mb, AM:2129mb, T:36.1427sec
+I1003 16:12:01.009811 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:02.436715 68440 profiling.cc:85] Commit to LDE finished in 1.42689 sec
+I1003 16:12:02.436793 68440 profiling.cc:88] Commit to LDE, RM:1983mb, AM:2129mb, T:37.5697sec
+I1003 16:12:02.436797 68440 profiling.cc:58] LDE started
+I1003 16:12:03.770857 68440 profiling.cc:85] LDE finished in 1.33404 sec
+I1003 16:12:03.770926 68440 profiling.cc:88] LDE, RM:1983mb, AM:2129mb, T:38.9039sec
+I1003 16:12:03.770931 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:05.195564 68440 profiling.cc:85] Commit to LDE finished in 1.42462 sec
+I1003 16:12:05.195647 68440 profiling.cc:88] Commit to LDE, RM:1983mb, AM:2129mb, T:40.3286sec
+I1003 16:12:05.195652 68440 profiling.cc:58] LDE started
+I1003 16:12:06.537755 68440 profiling.cc:85] LDE finished in 1.34209 sec
+I1003 16:12:06.537832 68440 profiling.cc:88] LDE, RM:1983mb, AM:2129mb, T:41.6708sec
+I1003 16:12:06.537837 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:07.963197 68440 profiling.cc:85] Commit to LDE finished in 1.42535 sec
+I1003 16:12:07.963279 68440 profiling.cc:88] Commit to LDE, RM:1983mb, AM:2129mb, T:43.0962sec
+I1003 16:12:07.963284 68440 profiling.cc:58] LDE started
+I1003 16:12:09.298136 68440 profiling.cc:85] LDE finished in 1.33484 sec
+I1003 16:12:09.298210 68440 profiling.cc:88] LDE, RM:1983mb, AM:2129mb, T:44.4311sec
+I1003 16:12:09.298214 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:10.742781 68440 profiling.cc:85] Commit to LDE finished in 1.44455 sec
+I1003 16:12:10.742877 68440 profiling.cc:88] Commit to LDE, RM:1983mb, AM:2129mb, T:45.8758sec
+I1003 16:12:10.742883 68440 profiling.cc:58] LDE started
+I1003 16:12:12.068452 68440 profiling.cc:85] LDE finished in 1.32555 sec
+I1003 16:12:12.068547 68440 profiling.cc:88] LDE, RM:1983mb, AM:2129mb, T:47.2015sec
+I1003 16:12:12.068549 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:13.506464 68440 profiling.cc:85] Commit to LDE finished in 1.43789 sec
+I1003 16:12:13.506577 68440 profiling.cc:88] Commit to LDE, RM:1983mb, AM:2129mb, T:48.6395sec
+I1003 16:12:13.543125 68440 profiling.cc:85] Commit on trace finished in 46.5749 sec
+I1003 16:12:13.543188 68440 profiling.cc:88] Commit on trace, RM:1214mb, AM:1361mb, T:48.6761sec
+I1003 16:12:14.128068 68440 stark.cc:423] Trace cells count:
+Log number of rows: 20
+Number of first trace columns: 24
+Number of interaction columns: 3
+Total trace cells: 28311552
+I1003 16:12:14.128091 68440 profiling.cc:58] Commit on interaction trace started
+I1003 16:12:14.221983 68440 profiling.cc:58] Interpolation started
+I1003 16:12:14.522341 68440 profiling.cc:85] Interpolation finished in 0.300349 sec
+I1003 16:12:14.522403 68440 profiling.cc:88] Interpolation, RM:1547mb, AM:1693mb, T:49.6553sec
+I1003 16:12:14.565896 68440 profiling.cc:58] LDE started
+I1003 16:12:14.755928 68440 profiling.cc:85] LDE finished in 0.190023 sec
+I1003 16:12:14.755998 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:49.8889sec
+I1003 16:12:14.756001 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:15.212049 68440 profiling.cc:85] Commit to LDE finished in 0.456033 sec
+I1003 16:12:15.212188 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:50.3451sec
+I1003 16:12:15.212195 68440 profiling.cc:58] LDE started
+I1003 16:12:15.398814 68440 profiling.cc:85] LDE finished in 0.186602 sec
+I1003 16:12:15.398888 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:50.5318sec
+I1003 16:12:15.398892 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:15.836572 68440 profiling.cc:85] Commit to LDE finished in 0.437665 sec
+I1003 16:12:15.836648 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:50.9696sec
+I1003 16:12:15.836652 68440 profiling.cc:58] LDE started
+I1003 16:12:16.023265 68440 profiling.cc:85] LDE finished in 0.186598 sec
+I1003 16:12:16.023340 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:51.1563sec
+I1003 16:12:16.023344 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:16.512670 68440 profiling.cc:85] Commit to LDE finished in 0.489313 sec
+I1003 16:12:16.512745 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:51.6457sec
+I1003 16:12:16.512749 68440 profiling.cc:58] LDE started
+I1003 16:12:16.698321 68440 profiling.cc:85] LDE finished in 0.185556 sec
+I1003 16:12:16.698400 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:51.8313sec
+I1003 16:12:16.698403 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:17.153818 68440 profiling.cc:85] Commit to LDE finished in 0.455396 sec
+I1003 16:12:17.153931 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:52.2868sec
+I1003 16:12:17.153939 68440 profiling.cc:58] LDE started
+I1003 16:12:17.338960 68440 profiling.cc:85] LDE finished in 0.185005 sec
+I1003 16:12:17.339030 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:52.472sec
+I1003 16:12:17.339033 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:17.798857 68440 profiling.cc:85] Commit to LDE finished in 0.45981 sec
+I1003 16:12:17.798950 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:52.9319sec
+I1003 16:12:17.798954 68440 profiling.cc:58] LDE started
+I1003 16:12:17.979708 68440 profiling.cc:85] LDE finished in 0.180738 sec
+I1003 16:12:17.979779 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:53.1127sec
+I1003 16:12:17.979782 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:18.442144 68440 profiling.cc:85] Commit to LDE finished in 0.462346 sec
+I1003 16:12:18.442232 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:53.5751sec
+I1003 16:12:18.442236 68440 profiling.cc:58] LDE started
+I1003 16:12:18.625787 68440 profiling.cc:85] LDE finished in 0.183536 sec
+I1003 16:12:18.625864 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:53.7588sec
+I1003 16:12:18.625867 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:19.084687 68440 profiling.cc:85] Commit to LDE finished in 0.458806 sec
+I1003 16:12:19.084764 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:54.2177sec
+I1003 16:12:19.084767 68440 profiling.cc:58] LDE started
+I1003 16:12:19.286939 68440 profiling.cc:85] LDE finished in 0.202156 sec
+I1003 16:12:19.287011 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:54.4199sec
+I1003 16:12:19.287014 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:19.732455 68440 profiling.cc:85] Commit to LDE finished in 0.445419 sec
+I1003 16:12:19.732553 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:54.8655sec
+I1003 16:12:19.732561 68440 profiling.cc:58] LDE started
+I1003 16:12:19.918349 68440 profiling.cc:85] LDE finished in 0.18577 sec
+I1003 16:12:19.918421 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:55.0513sec
+I1003 16:12:19.918423 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:20.363207 68440 profiling.cc:85] Commit to LDE finished in 0.444768 sec
+I1003 16:12:20.363262 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:55.4962sec
+I1003 16:12:20.363266 68440 profiling.cc:58] LDE started
+I1003 16:12:20.547577 68440 profiling.cc:85] LDE finished in 0.184295 sec
+I1003 16:12:20.547644 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:55.6806sec
+I1003 16:12:20.547647 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:21.007782 68440 profiling.cc:85] Commit to LDE finished in 0.460117 sec
+I1003 16:12:21.007892 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:56.1408sec
+I1003 16:12:21.007900 68440 profiling.cc:58] LDE started
+I1003 16:12:21.192607 68440 profiling.cc:85] LDE finished in 0.184692 sec
+I1003 16:12:21.192679 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:56.3256sec
+I1003 16:12:21.192683 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:21.640213 68440 profiling.cc:85] Commit to LDE finished in 0.447516 sec
+I1003 16:12:21.640306 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:56.7732sec
+I1003 16:12:21.640311 68440 profiling.cc:58] LDE started
+I1003 16:12:21.828773 68440 profiling.cc:85] LDE finished in 0.188447 sec
+I1003 16:12:21.828845 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:56.9618sec
+I1003 16:12:21.828848 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:22.276157 68440 profiling.cc:85] Commit to LDE finished in 0.447291 sec
+I1003 16:12:22.276254 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:57.4092sec
+I1003 16:12:22.276262 68440 profiling.cc:58] LDE started
+I1003 16:12:22.469744 68440 profiling.cc:85] LDE finished in 0.193467 sec
+I1003 16:12:22.469820 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:57.6027sec
+I1003 16:12:22.469822 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:22.933823 68440 profiling.cc:85] Commit to LDE finished in 0.463989 sec
+I1003 16:12:22.933898 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:58.0668sec
+I1003 16:12:22.933902 68440 profiling.cc:58] LDE started
+I1003 16:12:23.120261 68440 profiling.cc:85] LDE finished in 0.186344 sec
+I1003 16:12:23.120333 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:58.2533sec
+I1003 16:12:23.120337 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:23.576792 68440 profiling.cc:85] Commit to LDE finished in 0.456436 sec
+I1003 16:12:23.576902 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:58.7098sec
+I1003 16:12:23.576910 68440 profiling.cc:58] LDE started
+I1003 16:12:23.760906 68440 profiling.cc:85] LDE finished in 0.183981 sec
+I1003 16:12:23.760973 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:58.8939sec
+I1003 16:12:23.760977 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:24.230783 68440 profiling.cc:85] Commit to LDE finished in 0.469792 sec
+I1003 16:12:24.230872 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:59.3638sec
+I1003 16:12:24.230875 68440 profiling.cc:58] LDE started
+I1003 16:12:24.419374 68440 profiling.cc:85] LDE finished in 0.188484 sec
+I1003 16:12:24.419426 68440 profiling.cc:88] LDE, RM:1643mb, AM:1789mb, T:59.5524sec
+I1003 16:12:24.419430 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:24.866086 68440 profiling.cc:85] Commit to LDE finished in 0.446637 sec
+I1003 16:12:24.866182 68440 profiling.cc:88] Commit to LDE, RM:1643mb, AM:1789mb, T:59.9991sec
+I1003 16:12:24.872228 68440 profiling.cc:85] Commit on interaction trace finished in 10.7441 sec
+I1003 16:12:24.872283 68440 profiling.cc:88] Commit on interaction trace, RM:1547mb, AM:1693mb, T:60.0052sec
+I1003 16:12:24.874037 68440 profiling.cc:58] Composition polynomial computation started
+I1003 16:12:24.874157 68440 profiling.cc:58] LDE2 started
+I1003 16:12:26.196419 68440 profiling.cc:85] LDE2 finished in 1.32225 sec
+I1003 16:12:26.196555 68440 profiling.cc:88] LDE2, RM:2315mb, AM:2621mb, T:61.3295sec
+I1003 16:12:26.196559 68440 profiling.cc:58] BitReversal of columns started
+I1003 16:12:26.425323 68440 profiling.cc:85] BitReversal of columns finished in 0.228748 sec
+I1003 16:12:26.425406 68440 profiling.cc:88] BitReversal of columns, RM:2315mb, AM:2621mb, T:61.5583sec
+I1003 16:12:26.425410 68440 profiling.cc:58] LDE2 started
+I1003 16:12:26.608310 68440 profiling.cc:85] LDE2 finished in 0.182886 sec
+I1003 16:12:26.608379 68440 profiling.cc:88] LDE2, RM:2411mb, AM:2621mb, T:61.7413sec
+I1003 16:12:26.608382 68440 profiling.cc:58] BitReversal of columns started
+I1003 16:12:26.636883 68440 profiling.cc:85] BitReversal of columns finished in 0.0284877 sec
+I1003 16:12:26.636960 68440 profiling.cc:88] BitReversal of columns, RM:2411mb, AM:2621mb, T:61.7699sec
+I1003 16:12:26.636965 68440 profiling.cc:58] Actual point-wise computation started
+I1003 16:12:26.638377 68440 profiling.cc:58] Periodic columns computation. started
+I1003 16:12:26.639210 68440 profiling.cc:85] Periodic columns computation. finished in 0.000830288 sec
+I1003 16:12:26.639262 68440 profiling.cc:88] Periodic columns computation., RM:2411mb, AM:2621mb, T:61.7722sec
+I1003 16:12:30.416409 68440 profiling.cc:85] Actual point-wise computation finished in 3.77943 sec
+I1003 16:12:30.416508 68440 profiling.cc:88] Actual point-wise computation, RM:2443mb, AM:2621mb, T:65.5494sec
+I1003 16:12:30.416520 68440 profiling.cc:58] LDE2 started
+I1003 16:12:31.759861 68440 profiling.cc:85] LDE2 finished in 1.34333 sec
+I1003 16:12:31.759933 68440 profiling.cc:88] LDE2, RM:2443mb, AM:2621mb, T:66.8929sec
+I1003 16:12:31.759938 68440 profiling.cc:58] BitReversal of columns started
+I1003 16:12:31.990799 68440 profiling.cc:85] BitReversal of columns finished in 0.230846 sec
+I1003 16:12:31.990877 68440 profiling.cc:88] BitReversal of columns, RM:2443mb, AM:2621mb, T:67.1238sec
+I1003 16:12:31.990880 68440 profiling.cc:58] LDE2 started
+I1003 16:12:32.172439 68440 profiling.cc:85] LDE2 finished in 0.181542 sec
+I1003 16:12:32.172529 68440 profiling.cc:88] LDE2, RM:2443mb, AM:2621mb, T:67.3054sec
+I1003 16:12:32.172533 68440 profiling.cc:58] BitReversal of columns started
+I1003 16:12:32.201256 68440 profiling.cc:85] BitReversal of columns finished in 0.0287069 sec
+I1003 16:12:32.201324 68440 profiling.cc:88] BitReversal of columns, RM:2443mb, AM:2621mb, T:67.3343sec
+I1003 16:12:32.201328 68440 profiling.cc:58] Actual point-wise computation started
+I1003 16:12:32.202697 68440 profiling.cc:58] Periodic columns computation. started
+I1003 16:12:32.203506 68440 profiling.cc:85] Periodic columns computation. finished in 0.000807916 sec
+I1003 16:12:32.203554 68440 profiling.cc:88] Periodic columns computation., RM:2443mb, AM:2621mb, T:67.3365sec
+I1003 16:12:35.881875 68440 profiling.cc:85] Actual point-wise computation finished in 3.68053 sec
+I1003 16:12:35.881939 68440 profiling.cc:88] Actual point-wise computation, RM:2475mb, AM:2621mb, T:71.0149sec
+I1003 16:12:35.918087 68440 profiling.cc:85] Composition polynomial computation finished in 11.044 sec
+I1003 16:12:35.918148 68440 profiling.cc:88] Composition polynomial computation, RM:1611mb, AM:1757mb, T:71.0511sec
+I1003 16:12:35.918150 68440 profiling.cc:58] Polynomial breaker started
+I1003 16:12:35.985802 68440 profiling.cc:85] Polynomial breaker finished in 0.0676391 sec
+I1003 16:12:35.985862 68440 profiling.cc:88] Polynomial breaker, RM:1675mb, AM:1821mb, T:71.1188sec
+I1003 16:12:35.985865 68440 profiling.cc:58] Commit on composition started
+I1003 16:12:36.084776 68440 profiling.cc:58] Interpolation started
+I1003 16:12:36.260635 68440 profiling.cc:85] Interpolation finished in 0.175853 sec
+I1003 16:12:36.260723 68440 profiling.cc:88] Interpolation, RM:1955mb, AM:2101mb, T:71.3936sec
+I1003 16:12:36.302037 68440 profiling.cc:58] LDE started
+I1003 16:12:36.441802 68440 profiling.cc:85] LDE finished in 0.139759 sec
+I1003 16:12:36.441872 68440 profiling.cc:88] LDE, RM:2019mb, AM:2165mb, T:71.5748sec
+I1003 16:12:36.441875 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:36.891856 68440 profiling.cc:85] Commit to LDE finished in 0.44996 sec
+I1003 16:12:36.891950 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:72.0249sec
+I1003 16:12:36.891958 68440 profiling.cc:58] LDE started
+I1003 16:12:37.021672 68440 profiling.cc:85] LDE finished in 0.129698 sec
+I1003 16:12:37.021754 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:72.1547sec
+I1003 16:12:37.021757 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:37.487709 68440 profiling.cc:85] Commit to LDE finished in 0.465938 sec
+I1003 16:12:37.487794 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:72.6207sec
+I1003 16:12:37.487797 68440 profiling.cc:58] LDE started
+I1003 16:12:37.617676 68440 profiling.cc:85] LDE finished in 0.129861 sec
+I1003 16:12:37.617740 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:72.7507sec
+I1003 16:12:37.617744 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:38.094586 68440 profiling.cc:85] Commit to LDE finished in 0.476829 sec
+I1003 16:12:38.094676 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:73.2276sec
+I1003 16:12:38.094679 68440 profiling.cc:58] LDE started
+I1003 16:12:38.222373 68440 profiling.cc:85] LDE finished in 0.127676 sec
+I1003 16:12:38.222438 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:73.3554sec
+I1003 16:12:38.222441 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:38.681660 68440 profiling.cc:85] Commit to LDE finished in 0.459201 sec
+I1003 16:12:38.681766 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:73.8147sec
+I1003 16:12:38.681774 68440 profiling.cc:58] LDE started
+I1003 16:12:38.814028 68440 profiling.cc:85] LDE finished in 0.132236 sec
+I1003 16:12:38.814116 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:73.947sec
+I1003 16:12:38.814121 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:39.275696 68440 profiling.cc:85] Commit to LDE finished in 0.461561 sec
+I1003 16:12:39.275753 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:74.4087sec
+I1003 16:12:39.275756 68440 profiling.cc:58] LDE started
+I1003 16:12:39.405597 68440 profiling.cc:85] LDE finished in 0.129827 sec
+I1003 16:12:39.405668 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:74.5386sec
+I1003 16:12:39.405671 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:39.882225 68440 profiling.cc:85] Commit to LDE finished in 0.476539 sec
+I1003 16:12:39.882294 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:75.0152sec
+I1003 16:12:39.882299 68440 profiling.cc:58] LDE started
+I1003 16:12:40.011598 68440 profiling.cc:85] LDE finished in 0.129283 sec
+I1003 16:12:40.011669 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:75.1446sec
+I1003 16:12:40.011673 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:40.468789 68440 profiling.cc:85] Commit to LDE finished in 0.457103 sec
+I1003 16:12:40.468874 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:75.6018sec
+I1003 16:12:40.468879 68440 profiling.cc:58] LDE started
+I1003 16:12:40.600730 68440 profiling.cc:85] LDE finished in 0.131836 sec
+I1003 16:12:40.600800 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:75.7337sec
+I1003 16:12:40.600803 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:41.070614 68440 profiling.cc:85] Commit to LDE finished in 0.469798 sec
+I1003 16:12:41.070701 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:76.2036sec
+I1003 16:12:41.070705 68440 profiling.cc:58] LDE started
+I1003 16:12:41.206036 68440 profiling.cc:85] LDE finished in 0.135315 sec
+I1003 16:12:41.206100 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:76.339sec
+I1003 16:12:41.206104 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:41.627599 68440 profiling.cc:85] Commit to LDE finished in 0.421478 sec
+I1003 16:12:41.627684 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:76.7606sec
+I1003 16:12:41.627689 68440 profiling.cc:58] LDE started
+I1003 16:12:41.758603 68440 profiling.cc:85] LDE finished in 0.130899 sec
+I1003 16:12:41.758670 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:76.8916sec
+I1003 16:12:41.758674 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:42.198509 68440 profiling.cc:85] Commit to LDE finished in 0.439816 sec
+I1003 16:12:42.198609 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:77.3315sec
+I1003 16:12:42.198617 68440 profiling.cc:58] LDE started
+I1003 16:12:42.329461 68440 profiling.cc:85] LDE finished in 0.130829 sec
+I1003 16:12:42.329542 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:77.4625sec
+I1003 16:12:42.329546 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:42.785488 68440 profiling.cc:85] Commit to LDE finished in 0.455928 sec
+I1003 16:12:42.785573 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:77.9185sec
+I1003 16:12:42.785576 68440 profiling.cc:58] LDE started
+I1003 16:12:42.913061 68440 profiling.cc:85] LDE finished in 0.127469 sec
+I1003 16:12:42.913132 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:78.0461sec
+I1003 16:12:42.913136 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:43.363057 68440 profiling.cc:85] Commit to LDE finished in 0.449908 sec
+I1003 16:12:43.363126 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:78.4961sec
+I1003 16:12:43.363130 68440 profiling.cc:58] LDE started
+I1003 16:12:43.490933 68440 profiling.cc:85] LDE finished in 0.127787 sec
+I1003 16:12:43.491006 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:78.6239sec
+I1003 16:12:43.491009 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:43.937247 68440 profiling.cc:85] Commit to LDE finished in 0.446224 sec
+I1003 16:12:43.937335 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:79.0703sec
+I1003 16:12:43.937342 68440 profiling.cc:58] LDE started
+I1003 16:12:44.068588 68440 profiling.cc:85] LDE finished in 0.131231 sec
+I1003 16:12:44.068657 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:79.2016sec
+I1003 16:12:44.068660 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:44.548419 68440 profiling.cc:85] Commit to LDE finished in 0.479745 sec
+I1003 16:12:44.548521 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:79.6814sec
+I1003 16:12:44.548525 68440 profiling.cc:58] LDE started
+I1003 16:12:44.679780 68440 profiling.cc:85] LDE finished in 0.131241 sec
+I1003 16:12:44.679828 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:79.8128sec
+I1003 16:12:44.679832 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:45.138401 68440 profiling.cc:85] Commit to LDE finished in 0.458554 sec
+I1003 16:12:45.138494 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:80.2714sec
+I1003 16:12:45.138499 68440 profiling.cc:58] LDE started
+I1003 16:12:45.267593 68440 profiling.cc:85] LDE finished in 0.129077 sec
+I1003 16:12:45.267661 68440 profiling.cc:88] LDE, RM:2022mb, AM:2168mb, T:80.4006sec
+I1003 16:12:45.267665 68440 profiling.cc:58] Commit to LDE started
+I1003 16:12:45.744823 68440 profiling.cc:85] Commit to LDE finished in 0.477139 sec
+I1003 16:12:45.744925 68440 profiling.cc:88] Commit to LDE, RM:2022mb, AM:2168mb, T:80.8778sec
+I1003 16:12:45.749131 68440 profiling.cc:85] Commit on composition finished in 9.76325 sec
+I1003 16:12:45.749218 68440 profiling.cc:88] Commit on composition, RM:1958mb, AM:2104mb, T:80.8821sec
+I1003 16:12:45.749231 68440 profiling.cc:58] Eval at OODS point started
+I1003 16:12:47.436134 68440 profiling.cc:85] Eval at OODS point finished in 1.68689 sec
+I1003 16:12:47.436216 68440 profiling.cc:88] Eval at OODS point, RM:1958mb, AM:2104mb, T:82.5691sec
+I1003 16:12:47.439499 68440 profiling.cc:58] FRI virtual oracle computation started
+I1003 16:12:47.439606 68440 profiling.cc:58] LDE2 started
+I1003 16:12:48.830861 68440 profiling.cc:85] LDE2 finished in 1.39124 sec
+I1003 16:12:48.830916 68440 profiling.cc:88] LDE2, RM:2662mb, AM:3000mb, T:83.9639sec
+I1003 16:12:48.830919 68440 profiling.cc:58] BitReversal of columns started
+I1003 16:12:49.063875 68440 profiling.cc:85] BitReversal of columns finished in 0.232941 sec
+I1003 16:12:49.063946 68440 profiling.cc:88] BitReversal of columns, RM:2662mb, AM:3000mb, T:84.1969sec
+I1003 16:12:49.063951 68440 profiling.cc:58] LDE2 started
+I1003 16:12:49.247429 68440 profiling.cc:85] LDE2 finished in 0.183463 sec
+I1003 16:12:49.247509 68440 profiling.cc:88] LDE2, RM:2758mb, AM:3000mb, T:84.3804sec
+I1003 16:12:49.247512 68440 profiling.cc:58] BitReversal of columns started
+I1003 16:12:49.276955 68440 profiling.cc:85] BitReversal of columns finished in 0.0294297 sec
+I1003 16:12:49.277029 68440 profiling.cc:88] BitReversal of columns, RM:2758mb, AM:3000mb, T:84.41sec
+I1003 16:12:49.277033 68440 profiling.cc:58] LDE2 started
+I1003 16:12:49.411334 68440 profiling.cc:85] LDE2 finished in 0.134286 sec
+I1003 16:12:49.411413 68440 profiling.cc:88] LDE2, RM:2822mb, AM:3000mb, T:84.5443sec
+I1003 16:12:49.411417 68440 profiling.cc:58] BitReversal of columns started
+I1003 16:12:49.430526 68440 profiling.cc:85] BitReversal of columns finished in 0.0190963 sec
+I1003 16:12:49.430588 68440 profiling.cc:88] BitReversal of columns, RM:2822mb, AM:3000mb, T:84.5635sec
+I1003 16:12:49.430593 68440 profiling.cc:58] Actual point-wise computation started
+I1003 16:12:49.430681 68440 profiling.cc:58] Periodic columns computation. started
+I1003 16:12:49.430685 68440 profiling.cc:85] Periodic columns computation. finished in 2.825e-06 sec
+I1003 16:12:49.430698 68440 profiling.cc:88] Periodic columns computation., RM:2822mb, AM:3000mb, T:84.5637sec
+I1003 16:12:53.671545 68440 profiling.cc:85] Actual point-wise computation finished in 4.24094 sec
+I1003 16:12:53.671640 68440 profiling.cc:88] Actual point-wise computation, RM:2854mb, AM:3000mb, T:88.8046sec
+I1003 16:12:53.714757 68440 profiling.cc:85] FRI virtual oracle computation finished in 6.27525 sec
+I1003 16:12:53.714815 68440 profiling.cc:88] FRI virtual oracle computation, RM:1926mb, AM:2072mb, T:88.8478sec
+I1003 16:12:53.714818 68440 profiling.cc:58] FRI started
+I1003 16:12:53.714824 68440 profiling.cc:58] FRI commit phase started
+I1003 16:12:53.977612 68440 profiling.cc:85] FRI commit phase finished in 0.262776 sec
+I1003 16:12:53.977674 68440 profiling.cc:88] FRI commit phase, RM:1953mb, AM:2099mb, T:89.1106sec
+I1003 16:12:53.978063 68440 profiling.cc:58] Proof of work started
+I1003 16:12:54.779876 68440 profiling.cc:85] Proof of work finished in 0.801786 sec
+I1003 16:12:54.779994 68440 profiling.cc:88] Proof of work, RM:1953mb, AM:2099mb, T:89.9129sec
+I1003 16:12:54.780036 68440 profiling.cc:58] FRI response generation started
+I1003 16:12:54.780047 68440 profiling.cc:58] FRI virtual oracle callback started
+I1003 16:12:54.784567 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:54.785009 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:54.785231 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:54.785343 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:54.938894 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:54.939249 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:54.939426 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:54.939517 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:55.120787 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:55.121145 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:55.121328 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:55.121420 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:55.275781 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:55.276221 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:55.276490 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:55.276600 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:55.429759 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:55.430115 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:55.430290 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:55.430378 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:55.584681 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:55.585120 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:55.585340 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:55.585448 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:55.736835 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:55.737278 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:55.737501 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:55.737612 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:55.890529 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:55.890969 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:55.891188 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:55.891299 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:56.045075 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:56.045430 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:56.045667 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:56.045756 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:56.199041 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:56.199651 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:56.199872 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:56.199981 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:56.354207 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:56.354568 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:56.354744 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:56.354832 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:56.507799 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:56.508240 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:56.508458 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:56.508572 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:56.684475 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:56.684924 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:56.685144 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:56.685256 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:56.839807 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:56.840248 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:56.840466 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:56.840580 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:56.994446 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:56.994897 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:56.995117 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:56.995227 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:57.149085 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:57.149439 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:57.149618 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:57.149705 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:57.301883 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:57.302325 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:57.302547 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:57.302656 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:57.456446 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:57.456806 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:57.456982 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:57.457070 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:57.609815 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:57.610258 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:57.610476 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:57.610589 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:57.765772 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:57.766129 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:57.766305 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:57.766394 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:57.918502 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:57.918859 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:57.919034 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:57.919122 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:58.076054 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:58.076503 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:58.076722 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:58.076833 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:58.265645 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:58.266093 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:58.266310 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:58.266419 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:58.423213 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:58.423657 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:58.423877 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:58.423985 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:58.583753 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:58.584112 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:58.584288 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:58.584376 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:58.737336 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:58.737788 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:58.738008 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:58.738117 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:58.891670 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:58.892027 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:58.892262 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:58.892350 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:59.047565 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:59.048013 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:59.048233 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:59.048350 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:59.201857 68440 polynomials.inl:212] Applying coset optimization. Number of points: 416, after squaring: 208
+I1003 16:12:59.202215 68440 polynomials.inl:212] Applying coset optimization. Number of points: 208, after squaring: 104
+I1003 16:12:59.202390 68440 polynomials.inl:212] Applying coset optimization. Number of points: 104, after squaring: 52
+I1003 16:12:59.202479 68440 polynomials.inl:212] Applying coset optimization. Number of points: 52, after squaring: 26
+I1003 16:12:59.355388 68440 profiling.cc:85] FRI virtual oracle callback finished in 4.57529 sec
+I1003 16:12:59.355455 68440 profiling.cc:88] FRI virtual oracle callback, RM:1953mb, AM:2099mb, T:94.4884sec
+I1003 16:12:59.357302 68440 profiling.cc:85] FRI response generation finished in 4.57726 sec
+I1003 16:12:59.357327 68440 profiling.cc:88] FRI response generation, RM:1953mb, AM:2099mb, T:94.4903sec
+I1003 16:12:59.358656 68440 profiling.cc:85] FRI finished in 5.64383 sec
+I1003 16:12:59.358680 68440 profiling.cc:88] FRI, RM:1921mb, AM:2067mb, T:94.4916sec
+I1003 16:12:59.448905 68440 prover_main_helper_impl.cc:147] Byte count: 473928
+Hash count: 1874
+Commitment count: 7
+Field element count: 12936
+Data count: 1
+I1003 16:12:59.477561 68440 stats.cc:85] Init trace memory, RM:783mb, AM:796mb, T:0.314596sec
+CpuComponent::WriteTrace, RM:808mb, AM:1036mb, T:0.408936sec
+Pedersen builtin, RM:809mb, AM:1037mb, T:1.60512sec
+Range check builtin, RM:809mb, AM:1037mb, T:1.60523sec
+ECDSA builtin, RM:809mb, AM:1037mb, T:1.7854sec
+Bitwise builtin, RM:817mb, AM:1045mb, T:1.79102sec
+EC operation builtin, RM:817mb, AM:1045mb, T:1.92538sec
+Trace generation, RM:829mb, AM:1057mb, T:2.10118sec
+Interpolation, RM:1109mb, AM:1337mb, T:4.36546sec
+LDE, RM:1878mb, AM:2105mb, T:5.7594sec
+Commit to LDE, RM:1982mb, AM:2129mb, T:7.22976sec
+LDE, RM:1982mb, AM:2129mb, T:8.52827sec
+Commit to LDE, RM:1982mb, AM:2129mb, T:9.9708sec
+LDE, RM:1982mb, AM:2129mb, T:11.3045sec
+Commit to LDE, RM:1982mb, AM:2129mb, T:12.7277sec
+LDE, RM:1982mb, AM:2129mb, T:14.0229sec
+Commit to LDE, RM:1982mb, AM:2129mb, T:15.488sec
+LDE, RM:1982mb, AM:2129mb, T:16.7883sec
+Commit to LDE, RM:1982mb, AM:2129mb, T:18.2239sec
+LDE, RM:1982mb, AM:2129mb, T:19.5491sec
+Commit to LDE, RM:1982mb, AM:2129mb, T:20.9957sec
+LDE, RM:1982mb, AM:2129mb, T:22.3384sec
+Commit to LDE, RM:1982mb, AM:2129mb, T:23.7724sec
+LDE, RM:1982mb, AM:2129mb, T:25.1113sec
+Commit to LDE, RM:1982mb, AM:2129mb, T:26.5577sec
+LDE, RM:1982mb, AM:2129mb, T:27.866sec
+Commit to LDE, RM:1982mb, AM:2129mb, T:29.3051sec
+LDE, RM:1982mb, AM:2129mb, T:30.6046sec
+Commit to LDE, RM:1983mb, AM:2129mb, T:32.0557sec
+LDE, RM:1983mb, AM:2129mb, T:33.3576sec
+Commit to LDE, RM:1983mb, AM:2129mb, T:34.8223sec
+LDE, RM:1983mb, AM:2129mb, T:36.1427sec
+Commit to LDE, RM:1983mb, AM:2129mb, T:37.5697sec
+LDE, RM:1983mb, AM:2129mb, T:38.9039sec
+Commit to LDE, RM:1983mb, AM:2129mb, T:40.3286sec
+LDE, RM:1983mb, AM:2129mb, T:41.6708sec
+Commit to LDE, RM:1983mb, AM:2129mb, T:43.0962sec
+LDE, RM:1983mb, AM:2129mb, T:44.4311sec
+Commit to LDE, RM:1983mb, AM:2129mb, T:45.8758sec
+LDE, RM:1983mb, AM:2129mb, T:47.2015sec
+Commit to LDE, RM:1983mb, AM:2129mb, T:48.6395sec
+Commit on trace, RM:1214mb, AM:1361mb, T:48.6761sec
+Interpolation, RM:1547mb, AM:1693mb, T:49.6553sec
+LDE, RM:1643mb, AM:1789mb, T:49.8889sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:50.3451sec
+LDE, RM:1643mb, AM:1789mb, T:50.5318sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:50.9696sec
+LDE, RM:1643mb, AM:1789mb, T:51.1563sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:51.6457sec
+LDE, RM:1643mb, AM:1789mb, T:51.8313sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:52.2868sec
+LDE, RM:1643mb, AM:1789mb, T:52.472sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:52.9319sec
+LDE, RM:1643mb, AM:1789mb, T:53.1127sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:53.5751sec
+LDE, RM:1643mb, AM:1789mb, T:53.7588sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:54.2177sec
+LDE, RM:1643mb, AM:1789mb, T:54.4199sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:54.8655sec
+LDE, RM:1643mb, AM:1789mb, T:55.0513sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:55.4962sec
+LDE, RM:1643mb, AM:1789mb, T:55.6806sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:56.1408sec
+LDE, RM:1643mb, AM:1789mb, T:56.3256sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:56.7732sec
+LDE, RM:1643mb, AM:1789mb, T:56.9618sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:57.4092sec
+LDE, RM:1643mb, AM:1789mb, T:57.6027sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:58.0668sec
+LDE, RM:1643mb, AM:1789mb, T:58.2533sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:58.7098sec
+LDE, RM:1643mb, AM:1789mb, T:58.8939sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:59.3638sec
+LDE, RM:1643mb, AM:1789mb, T:59.5524sec
+Commit to LDE, RM:1643mb, AM:1789mb, T:59.9991sec
+Commit on interaction trace, RM:1547mb, AM:1693mb, T:60.0052sec
+LDE2, RM:2315mb, AM:2621mb, T:61.3295sec
+BitReversal of columns, RM:2315mb, AM:2621mb, T:61.5583sec
+LDE2, RM:2411mb, AM:2621mb, T:61.7413sec
+BitReversal of columns, RM:2411mb, AM:2621mb, T:61.7699sec
+Periodic columns computation., RM:2411mb, AM:2621mb, T:61.7722sec
+Actual point-wise computation, RM:2443mb, AM:2621mb, T:65.5494sec
+LDE2, RM:2443mb, AM:2621mb, T:66.8929sec
+BitReversal of columns, RM:2443mb, AM:2621mb, T:67.1238sec
+LDE2, RM:2443mb, AM:2621mb, T:67.3054sec
+BitReversal of columns, RM:2443mb, AM:2621mb, T:67.3343sec
+Periodic columns computation., RM:2443mb, AM:2621mb, T:67.3365sec
+Actual point-wise computation, RM:2475mb, AM:2621mb, T:71.0149sec
+Composition polynomial computation, RM:1611mb, AM:1757mb, T:71.0511sec
+Polynomial breaker, RM:1675mb, AM:1821mb, T:71.1188sec
+Interpolation, RM:1955mb, AM:2101mb, T:71.3936sec
+LDE, RM:2019mb, AM:2165mb, T:71.5748sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:72.0249sec
+LDE, RM:2022mb, AM:2168mb, T:72.1547sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:72.6207sec
+LDE, RM:2022mb, AM:2168mb, T:72.7507sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:73.2276sec
+LDE, RM:2022mb, AM:2168mb, T:73.3554sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:73.8147sec
+LDE, RM:2022mb, AM:2168mb, T:73.947sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:74.4087sec
+LDE, RM:2022mb, AM:2168mb, T:74.5386sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:75.0152sec
+LDE, RM:2022mb, AM:2168mb, T:75.1446sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:75.6018sec
+LDE, RM:2022mb, AM:2168mb, T:75.7337sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:76.2036sec
+LDE, RM:2022mb, AM:2168mb, T:76.339sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:76.7606sec
+LDE, RM:2022mb, AM:2168mb, T:76.8916sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:77.3315sec
+LDE, RM:2022mb, AM:2168mb, T:77.4625sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:77.9185sec
+LDE, RM:2022mb, AM:2168mb, T:78.0461sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:78.4961sec
+LDE, RM:2022mb, AM:2168mb, T:78.6239sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:79.0703sec
+LDE, RM:2022mb, AM:2168mb, T:79.2016sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:79.6814sec
+LDE, RM:2022mb, AM:2168mb, T:79.8128sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:80.2714sec
+LDE, RM:2022mb, AM:2168mb, T:80.4006sec
+Commit to LDE, RM:2022mb, AM:2168mb, T:80.8778sec
+Commit on composition, RM:1958mb, AM:2104mb, T:80.8821sec
+Eval at OODS point, RM:1958mb, AM:2104mb, T:82.5691sec
+LDE2, RM:2662mb, AM:3000mb, T:83.9639sec
+BitReversal of columns, RM:2662mb, AM:3000mb, T:84.1969sec
+LDE2, RM:2758mb, AM:3000mb, T:84.3804sec
+BitReversal of columns, RM:2758mb, AM:3000mb, T:84.41sec
+LDE2, RM:2822mb, AM:3000mb, T:84.5443sec
+BitReversal of columns, RM:2822mb, AM:3000mb, T:84.5635sec
+Periodic columns computation., RM:2822mb, AM:3000mb, T:84.5637sec
+Actual point-wise computation, RM:2854mb, AM:3000mb, T:88.8046sec
+FRI virtual oracle computation, RM:1926mb, AM:2072mb, T:88.8478sec
+FRI commit phase, RM:1953mb, AM:2099mb, T:89.1106sec
+Proof of work, RM:1953mb, AM:2099mb, T:89.9129sec
+FRI virtual oracle callback, RM:1953mb, AM:2099mb, T:94.4884sec
+FRI response generation, RM:1953mb, AM:2099mb, T:94.4903sec
+FRI, RM:1921mb, AM:2067mb, T:94.4916sec
+I1003 16:12:59.477627 68440 profiling.cc:85] Prover finished in 94.6012 sec
+I1003 16:12:59.477676 68440 profiling.cc:88] Prover, RM:204mb, AM:350mb, T:94.6106sec
